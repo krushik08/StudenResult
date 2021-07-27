@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  color: rgba(66, 101, 255, 0.7);
+}
+
+input {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  width: 125px;
+  max-width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  transform: translatez(0);
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: rgb(29, 165, 255);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.saveResult {
+  margin: 10px;
+}

@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #f8a9ff;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+th {
+  background-color: rgb(191, 53, 255);
+}
+
+td {
+  background-color: rgb(207, 148, 255);
+}
+
+.edit {
+  background-color: rgb(66, 101, 255);
+  box-shadow: 7px 6px 28px 1px rgba(66, 101, 255, 0.7);
+}
+
+.delete {
+  box-shadow: 7px 6px 28px 1px rgba(255, 67, 67, 0.7);
+  background-color: rgb(255, 75, 75);
+}
